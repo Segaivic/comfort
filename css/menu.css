@@ -1,0 +1,42 @@
+.menu {
+    float: left;
+}
+.menu, .menu ul{
+    padding:0;
+    margin: 0;
+}
+
+/*set up a tags*/
+.menu a{display:block; text-decoration: none;}
+/*position level 1 links horizontally*/
+.menu li{
+    padding: 10px 0;
+    display:block;
+    float:left;
+}
+/*undo previous style for level 2 links*/
+.menu li ul li{float:none;}
+/*position level 2 links vertically and hide*/
+.menu li ul{display:none; position:absolute; z-index:1}
+/*unhide level 2 links on li:hover from level 1*/
+.menu li:hover ul{display:block;}
+
+/*DROPDOWN STYLING:*/
+
+.menu a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    text-transform:capitalize;
+    color:#969696;
+    padding:5px 14px 8px 14px;
+}
+.menu a:hover{color:#fff;}
+.menu li{
+    font-family:'Open Sans', Arial;
+    margin: -1px 8px -1px 0;
+}
+.menu li:hover{
+    color: #fff;
+    background-color:#ff3333;
+}
