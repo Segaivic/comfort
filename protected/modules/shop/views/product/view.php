@@ -48,7 +48,9 @@ unset($this->breadcrumbs);
 </p>
 <?php endif; ?>
 <div class="grid_6">
-    <?php echo CHtml::link(CHtml::image($model->image->thumbnail),$model->image->image, array('rel'=>'fbox')); ?>
+     <?php if($model->image): ?>
+        <?php echo CHtml::link(CHtml::image($model->image->thumbnail),$model->image->image, array('rel'=>'fbox')); ?>
+    <?php endif; ?>
 </div>
 <div class="grid_18">
     <p class="description">

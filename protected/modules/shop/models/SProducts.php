@@ -130,6 +130,23 @@ class SProducts extends CActiveRecord
 		));
 	}
 
+
+    protected function beforeSave()
+    {
+        if(parent::beforeSave())
+        {
+            if($this->isNewRecord)
+            {
+
+            }
+            else
+                $this->updated_at=date( "Y-m-d H:i:s" );
+            return true;
+        }
+        else
+            return false;
+    }
+
     protected  function afterDelete() {
         parent::afterDelete();
         $image=SProductsimg::model()->find(
