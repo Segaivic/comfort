@@ -1,4 +1,4 @@
 comfort
 =======
 
-Fucking mebel-comfort
+mebel-comfort
