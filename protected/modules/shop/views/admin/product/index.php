@@ -16,7 +16,7 @@
             array(
                 'name'=>'title',
                 'type'=>'raw',
-                'value'=>'CHtml::link(CHtml::encode($data->title), $data->url)'
+                'value'=>'CHtml::link(CHtml::encode($data->title), Yii::app()->createUrl("shop/admin/product/update/", array("id"=>$data->id)))'
             ),
             array(
                 'name' => 'active',

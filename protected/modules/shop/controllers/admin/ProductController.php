@@ -80,8 +80,9 @@ class ProductController extends Controller
                         $image->thumbnail = '/uploads/shop/product/thumb/'.$uniqid.$imgName;
 
                         if($image->save()){
-                            CImageHandler::upload($imgName , $image->image);
+                            CImageHandler::upload($imgName , $image->image , true);
                             CImageHandler::resizeAndSave($image->image , $image->thumbnail ,'height', 128);
+
                         }
                     }
 
@@ -125,13 +126,14 @@ class ProductController extends Controller
                             if($imgName){
                                 CImageHandler::delete($old_image);
                                 CImageHandler::delete($old_thumb);
-                                CImageHandler::upload($imgName , $image->image);
+                                CImageHandler::upload($imgName , $image->image , true);
                                 CImageHandler::resizeAndSave($image->image , $image->thumbnail ,'height', 128);
                             }
+
                     }
                 }
 
-                $this->redirect(array($model->id));
+                $this->redirect(array('admin/product/update/id/'.$model->id));
             }
 
         }
