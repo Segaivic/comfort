@@ -61,8 +61,8 @@
     </div>
 
     <div class="row">
-        <?php echo $form->label($model,'index'); ?>
-        <?php echo $form->textField($model,'index',array('size'=>60,'maxlength'=>255)); ?>
+        <?php echo $form->label($model,'default'); ?>
+        <?php echo $form->textField($model,'default',array('size'=>60,'maxlength'=>255)); ?>
     </div>
 
     <div class="row">

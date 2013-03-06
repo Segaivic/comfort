@@ -45,8 +45,8 @@
 	<?php echo CHtml::encode($data->other_validator); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('index')); ?>:</b>
-	<?php echo CHtml::encode($data->index); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('default')); ?>:</b>
+	<?php echo CHtml::encode($data->default); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('position')); ?>:</b>

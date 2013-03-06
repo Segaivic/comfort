@@ -77,10 +77,10 @@
 	</div>
 
 	<div class="row default">
-		<?php echo CHtml::activeLabelEx($model,'index'); ?>
-		<?php echo (($model->id)?CHtml::activeTextField($model,'index',array('size'=>60,'maxlength'=>255,'readonly'=>true)):CHtml::activeTextField($model,'index',array('size'=>60,'maxlength'=>255))); ?>
-		<?php echo CHtml::error($model,'index'); ?>
-		<p class="hint"><?php echo UserModule::t('The value of the index field (database).'); ?></p>
+		<?php echo CHtml::activeLabelEx($model,'default'); ?>
+		<?php echo (($model->id)?CHtml::activeTextField($model,'default',array('size'=>60,'maxlength'=>255,'readonly'=>true)):CHtml::activeTextField($model,'default',array('size'=>60,'maxlength'=>255))); ?>
+		<?php echo CHtml::error($model,'default'); ?>
+		<p class="hint"><?php echo UserModule::t('The value of the default field (database).'); ?></p>
 	</div>
 
 	<div class="row widget">

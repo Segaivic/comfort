@@ -29,7 +29,7 @@ $this->menu=array(
 		'other_validator',
 		'widget',
 		'widgetparams',
-		'index',
+		'default',
 		'position',
 		'visible',
 	),

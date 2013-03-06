@@ -121,7 +121,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Expresii regulare (exemplu: '/^[A-Za-z0-9\s,]+$/u').",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Valori predefinite (exemplu: 1;2;3;4;5 sau 1==One;2==Two;3==Three;4==Four;5==Five).',
 	'Error message when you validate the form.' => 'Mesaj de eroare pentru validarea formularului.',
-	'The value of the index field (database).' => 'Valoarea campului implicit (baza de date).',
+	'The value of the default field (database).' => 'Valoarea campului implicit (baza de date).',
 	'Display order of fields.' => 'Afisare ordinea campurilor.',
 	'Not visited' => 'Nevizitat',
 	'Birthday'=>'Data nasterii',

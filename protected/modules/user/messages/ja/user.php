@@ -122,7 +122,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "正規表現 (例: '/^[A-Za-z0-9\s,]+$/u')",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => '有効な値を列挙。(例: 1;2;3;4;5 または 1==One;2==Two;3==Three;4==Four;5==Five) ',
 	'Error message when you validate the form.' => 'フォーム検証時のエラー・メッセージ。',
-	'The value of the index field (database).' => 'データベースのフィールドのデフォルト値。',
+	'The value of the default field (database).' => 'データベースのフィールドのデフォルト値。',
 	'Display order of fields.' => 'フォームでの項目の表示順。',
 	'Not visited' => '訪問無し',
 );

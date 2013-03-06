@@ -9,7 +9,7 @@ class ProfileFieldController extends Controller
 	private $_model;
 	private static $_widgets = array();
 	public $defaultAction = 'admin';
-    public $layout = 'application.modules.admin.layouts.admin';
+	public $layout='//layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -98,7 +98,7 @@ class ProfileFieldController extends Controller
 				'hide':['match','other_validator','widgetparams'],
 				'val':{
 					'field_size':10,
-					'index':'0',
+					'default':'0',
 					'range':'',
 					'widgetparams':''
 				}
@@ -107,7 +107,7 @@ class ProfileFieldController extends Controller
 				'hide':['widgetparams'],
 				'val':{
 					'field_size':255,
-					'index':'',
+					'default':'',
 					'range':'',
 					'widgetparams':''
 				}
@@ -116,7 +116,7 @@ class ProfileFieldController extends Controller
 				'hide':['field_size','range','widgetparams'],
 				'val':{
 					'field_size':0,
-					'index':'',
+					'default':'',
 					'range':'',
 					'widgetparams':''
 				}
@@ -125,7 +125,7 @@ class ProfileFieldController extends Controller
 				'hide':['field_size','field_size_min','match','range','widgetparams'],
 				'val':{
 					'field_size':0,
-					'index':'0000-00-00',
+					'default':'0000-00-00',
 					'range':'',
 					'widgetparams':''
 				}
@@ -134,7 +134,7 @@ class ProfileFieldController extends Controller
 				'hide':['match','other_validator','widgetparams'],
 				'val':{
 					'field_size':'10.2',
-					'index':'0.00',
+					'default':'0.00',
 					'range':'',
 					'widgetparams':''
 				}
@@ -143,7 +143,7 @@ class ProfileFieldController extends Controller
 				'hide':['match','other_validator','widgetparams'],
 				'val':{
 					'field_size':'10,2',
-					'index':'0',
+					'default':'0',
 					'range':'',
 					'widgetparams':''
 				}
@@ -152,7 +152,7 @@ class ProfileFieldController extends Controller
 				'hide':['field_size','field_size_min','match','widgetparams'],
 				'val':{
 					'field_size':0,
-					'index':0,
+					'default':0,
 					'range':'1==".UserModule::t('Yes').";0==".UserModule::t('No')."',
 					'widgetparams':''
 				}
@@ -161,7 +161,7 @@ class ProfileFieldController extends Controller
 				'hide':['field_size','field_size_min','match','widgetparams'],
 				'val':{
 					'field_size':0,
-					'index':'',
+					'default':'',
 					'range':'',
 					'widgetparams':''
 				}
@@ -170,7 +170,7 @@ class ProfileFieldController extends Controller
 				'hide':['field_size','field_size_min','match','widgetparams'],
 				'val':{
 					'field_size':0,
-					'index':'',
+					'default':'',
 					'range':'',
 					'widgetparams':''
 				}
@@ -464,7 +464,7 @@ class ProfileFieldController extends Controller
 	public function actionAdmin()
 	{
 		$model=new ProfileField('search');
-        $model->unsetAttributes();  // clear any index values
+        $model->unsetAttributes();  // clear any default values
         if(isset($_GET['ProfileField']))
             $model->attributes=$_GET['ProfileField'];
 

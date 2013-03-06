@@ -123,7 +123,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Регулярные выражения (пример: '/^[A-Za-z0-9\s,]+$/u')",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Предопределенные значения (пример: 1;2;3;4;5 или 1==Один;2==Два;3==Три;4==Четыре;5==Пять).',
 	'Error message when you validate the form.' => 'Сообщение об ошибке при проверке формы.',
-	'The value of the index field (database).' => 'Значение поля по умолчанию (база данных).',
+	'The value of the default field (database).' => 'Значение поля по умолчанию (база данных).',
 	'Display order of fields.' => 'Порядок отображения полей.',
 	'Not visited' => 'Не входил',
 	'Search' => 'Искать',

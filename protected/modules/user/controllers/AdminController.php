@@ -3,7 +3,7 @@
 class AdminController extends Controller
 {
 	public $defaultAction = 'admin';
-    public $layout = 'application.modules.admin.layouts.admin';
+	public $layout='application.modules.admin.layouts.admin';
 	
 	private $_model;
 
@@ -39,7 +39,7 @@ class AdminController extends Controller
 	public function actionAdmin()
 	{
 		$model=new User('search');
-        $model->unsetAttributes();  // clear any index values
+        $model->unsetAttributes();  // clear any default values
         if(isset($_GET['User']))
             $model->attributes=$_GET['User'];
 

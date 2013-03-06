@@ -124,7 +124,7 @@ return array(
         "Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Expression régulière (par exemple: '/^[A-Za-z0-9\s,]+$/u').",
         'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Valeurs prédéfinies (par exemple:  1;2;3;4;5 ou 1==One;2==Deux;3==Trois;4==Quatre;5==Cinq).',
         'Error message when you validate the form.' => 'Message d\'erreur lorsque vous validez le formulaire.',
-        'The value of the index field (database).' => 'La valeur du champ par défaut (base de données).',
+        'The value of the default field (database).' => 'La valeur du champ par défaut (base de données).',
         'Display order of fields.' => 'Ordre d\'affichage des champs.',
         'Not visited' => 'Non visité',
 );

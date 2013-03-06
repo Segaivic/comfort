@@ -121,7 +121,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Regulärer Ausdruck (beispiel: '/^[A-Za-z0-9\s,]+$/u').",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Vordefinierte Werte (beispiel: 1;2;3;4;5 oder 1==One;2==Two;3==Three;4==Four;5==Five).',
 	'Error message when you validate the form.' => 'Fehlermeldung: wenn Sie das Formular zu validieren.',
-	'The value of the index field (database).' => 'Der Wert des Standard-Bereich (Datenbank).',
+	'The value of the default field (database).' => 'Der Wert des Standard-Bereich (Datenbank).',
 	'Display order of fields.' => 'Anzeige Reihenfolge der Felder.',
 	'Not visited' => 'Nicht besucht',
 );

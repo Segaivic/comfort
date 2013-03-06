@@ -120,7 +120,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Reguláris kifejezés (például: '/^[A-Za-z0-9\s,]+$/u').",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Előre definiált értékek (például: 1;2;3;4;5 vagy 1==Egy;2==Kettő;3==Három;4==Négy;5==Öt).',
 	'Error message when you validate the form.' => 'Hibaüzenet validációnál.',
-	'The value of the index field (database).' => 'Az alapértelmezett mező értéke (Adatbázis).',
+	'The value of the default field (database).' => 'Az alapértelmezett mező értéke (Adatbázis).',
 	'Display order of fields.' => 'Mezők sorrendjének megjelenítése.',
 	'Not visited' => 'Nem látogatott',
 );

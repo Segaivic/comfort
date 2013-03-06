@@ -2,8 +2,8 @@
 
 class LoginController extends Controller
 {
-	public $layout = '//layouts/user';
-    public $defaultAction = 'login';
+	public $defaultAction = 'login';
+    public $layout = 'application.views.layouts.news';
 
 	/**
 	 * Displays the login page
@@ -28,7 +28,7 @@ class LoginController extends Controller
 			// display the login form
 			$this->render('/user/login',array('model'=>$model));
 		} else
-			$this->redirect('/');
+			$this->redirect(Yii::app()->controller->module->returnUrl);
 	}
 	
 	private function lastViset() {

@@ -3,6 +3,7 @@ $this->pageTitle = $model->title.' - редактирование';
 $this->breadcrumbs = array(
   'Администрирование' => '/admin',
   'Каталог' => '/shop/admin/',
+  'Товары' => '/shop/admin/product/',
   'Новая товар'
 );
 ?>

@@ -64,7 +64,7 @@ $('.search-form form').submit(function(){
 		//'range',
 		//'error_message',
 		//'other_validator',
-		//'index',
+		//'default',
 		'position',
 		array(
 			'name'=>'visible',

@@ -29,7 +29,7 @@ return array(
             'hash' => 'md5',
 
             # send activation email
-            'sendActivationMail' => true,
+            'sendActivationMail' => false,
 
             # allow access for non-activated users
             'loginNotActiv' => false,

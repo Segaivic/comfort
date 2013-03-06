@@ -121,7 +121,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Reguliere expressie (bijvoorbeeld: '/^[A-Za-z0-9\s,]+$/u').",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Voorgedefinieerde waarden (bijvoorbeeld: 1;2;3;4;5 of 1==One;2==Two;3==Three;4==Four;5==Five).',
 	'Error message when you validate the form.' => 'Foutmelding: bij formulier validatie.',
-	'The value of the index field (database).' => 'De waarde van het standaard veld (database).',
+	'The value of the default field (database).' => 'De waarde van het standaard veld (database).',
 	'Display order of fields.' => 'Geef volgorde van velden weer.',
 	'Not visited' => 'Niet bezocht',
 );

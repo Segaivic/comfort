@@ -13,7 +13,7 @@ button.ui-button-icons-only { width: 3.7em; }
 .ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
 .ui-button-text-icon .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
 .ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
-/* no icon support for input elements, provide padding by index */
+/* no icon support for input elements, provide padding by default */
 input.ui-button { padding: .4em 1em; }
 
 /*button icon element(s) */

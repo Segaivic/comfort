@@ -3,7 +3,6 @@
 class ActivationController extends Controller
 {
 	public $defaultAction = 'activation';
-    public $layout = '//layouts/user';
 
 	
 	/**

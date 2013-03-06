@@ -129,7 +129,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Regular expression (Παράδειγμα: '/^[A-Za-z0-9\s,]+$/u').",
 	'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Προκαθορισμένες Τιμές (παράδειγμα: 1;2;3;4;5 ή  1==Ένα;2==Δύο;3==Τρία;4==Τέσσερα;5==Πέντε).',
 	'Error message when you validate the form.' => 'Μύνημα λάθους κατά την επαλήθευση της φόρμας.',
-	'The value of the index field (database).' => 'Η τιμή του εξ\'ορισμού πεδίου (βάση δεδομένων).',
+	'The value of the default field (database).' => 'Η τιμή του εξ\'ορισμού πεδίου (βάση δεδομένων).',
 	'Display order of fields.' => 'Σειρά εμφάνισης των πεδίων.',
 	'Not visited' => 'Δεν έχει επισκεφθεί',
         'Birthday'=>'Ημερομηνία Γέννησης'

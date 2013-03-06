@@ -124,7 +124,7 @@ return array(
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Регулярні вирази (приклад: '/^[A-Za-z0-9\s,]+$/u')",	
     'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Допустимі значения (приклад: 1;2;3;4;5 або 1==Один;2==Два;3==Три;4==Чотири;5==П\'ять).',
 	'Error message when you validate the form.' => 'Повідомлення про помилку при перевірці форми.',
-	'The value of the index field (database).' => 'Значення поля за замовчуванням (база даних).',
+	'The value of the default field (database).' => 'Значення поля за замовчуванням (база даних).',
 	'Display order of fields.' => 'Порядок відображення полів.',
     'Not visited' => 'Користувач не відвідував сайт',
 

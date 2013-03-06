@@ -61,9 +61,9 @@ class ProfileField extends CActiveRecord
 			array('varname, field_type', 'length', 'max'=>50),
 			array('field_size_min, required, position, visible', 'numerical', 'integerOnly'=>true),
 			array('field_size', 'match', 'pattern' => '/^\s*[-+]?[0-9]*\,*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/'),
-			array('title, match, error_message, other_validator, index, widget', 'length', 'max'=>255),
+			array('title, match, error_message, other_validator, default, widget', 'length', 'max'=>255),
 			array('range, widgetparams', 'length', 'max'=>5000),
-			array('id, varname, title, field_type, field_size, field_size_min, required, match, range, error_message, other_validator, index, widget, widgetparams, position, visible', 'safe', 'on'=>'search'),
+			array('id, varname, title, field_type, field_size, field_size_min, required, match, range, error_message, other_validator, default, widget, widgetparams, position, visible', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -95,7 +95,7 @@ class ProfileField extends CActiveRecord
 			'range' => UserModule::t('Range'),
 			'error_message' => UserModule::t('Error Message'),
 			'other_validator' => UserModule::t('Other Validator'),
-			'index' => UserModule::t('Default'),
+			'default' => UserModule::t('Default'),
 			'widget' => UserModule::t('Widget'),
 			'widgetparams' => UserModule::t('Widget parametrs'),
 			'position' => UserModule::t('Position'),
@@ -228,7 +228,7 @@ class ProfileField extends CActiveRecord
         $criteria->compare('range',$this->range,true);
         $criteria->compare('error_message',$this->error_message,true);
         $criteria->compare('other_validator',$this->other_validator,true);
-        $criteria->compare('index',$this->default,true);
+        $criteria->compare('default',$this->default,true);
         $criteria->compare('widget',$this->widget,true);
         $criteria->compare('widgetparams',$this->widgetparams,true);
         $criteria->compare('position',$this->position);

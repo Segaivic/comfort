@@ -28,7 +28,6 @@ class UserController extends Controller
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
-
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),

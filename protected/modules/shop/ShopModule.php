@@ -12,6 +12,7 @@ class ShopModule extends CWebModule
 		$this->setImport(array(
 			'shop.models.*',
 			'shop.components.*',
+			'shop.extensions.*',
 		));
 
         // client script manager
